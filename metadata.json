@@ -1,0 +1,6 @@
+{
+  "name": "ImageSuite",
+  "description": "Fast, private browser-based image conversion and compression suite. Convert JPG to PNG, PNG to WebP, compress to target size in KB, and resize images with 100% client-side privacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
