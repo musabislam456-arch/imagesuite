@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     description:
       'Zero server uploads. Convert JPG to PNG, PNG to WebP, compress to target KB, and resize directly in your browser.',
   },
+  verification: {
+    google: '8dLMBNTBkGFQ3zq4GYwdQbjC1ciAalZ87g56dZR1mks',
+  },
 };
 
 export default function RootLayout({
@@ -41,4 +44,3 @@ export default function RootLayout({
     </html>
   );
 }
-
