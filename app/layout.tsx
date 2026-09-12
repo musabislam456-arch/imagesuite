@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://imagesuite.toolbay.site'),
   title: 'ImageSuite — Fast In-Browser Image Converter & Compressor',
   description:
     'Free client-side image conversion and compression. Convert JPG to PNG, PNG to WebP, compress images to target size in KB, and resize with total privacy.',
@@ -12,6 +13,8 @@ export const metadata: Metadata = {
     description:
       'Zero server uploads. Convert JPG to PNG, PNG to WebP, compress to target KB, and resize directly in your browser.',
     type: 'website',
+    url: 'https://imagesuite.toolbay.site',
+    siteName: 'ImageSuite',
   },
   twitter: {
     card: 'summary_large_image',
