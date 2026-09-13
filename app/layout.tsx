@@ -15,13 +15,28 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://imagesuite.toolbay.site',
     siteName: 'ImageSuite',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'ImageSuite — Fast In-Browser Image Converter & Compressor',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ImageSuite — Fast In-Browser Image Converter & Compressor',
     description:
       'Zero server uploads. Convert JPG to PNG, PNG to WebP, compress to target KB, and resize directly in your browser.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   verification: {
     google: '8dLMBNTBkGFQ3zq4GYwdQbjC1ciAalZ87g56dZR1mks',
   },
